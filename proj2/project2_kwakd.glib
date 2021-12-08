@@ -1,0 +1,15 @@
+##OpenGL GLIB
+LookAt  0 0 3  0 0 0  0 1 0
+Perspective 70
+
+Vertex   project2_kwakd.vert
+Fragment project2_kwakd.frag
+Program  project2_kwakd                                         \
+        uAd <.01 .05 .5>  uBd <.01 .05 .5>                      \
+        uNoiseAmp <0. 0. 1.>  uNoiseFreq <0. 1. 10.>      	    \
+        uTol <0. 0. 1.>						                              \
+        uAlpha <0. 1. 1.>
+
+
+Color 1. .9 0
+Sphere

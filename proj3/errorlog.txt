@@ -1,0 +1,3 @@
+
+0(30) : error C1115: unable to find compatible overloaded function "normalize(vec3, vec3)"
+

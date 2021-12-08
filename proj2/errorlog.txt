@@ -1,0 +1,3 @@
+
+0(50) : error C1503: undefined variable "WHITE"
+

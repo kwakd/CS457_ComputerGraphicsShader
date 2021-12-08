@@ -1,0 +1,13 @@
+##OpenGL GLIB
+Perspective 90
+LookAt 0 0 2  0 0 0  0 1 0
+
+Vertex   catL_dots.vert
+Fragment catL_dots.frag
+Program  catL  					\
+		uAd <.001 .1 .5>			\
+		uBd <.001 .1 .5>			\
+		uTol <0. 0. 1.>
+
+Color 1. .9 0
+Obj catL.obj

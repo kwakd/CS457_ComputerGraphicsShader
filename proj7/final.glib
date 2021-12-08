@@ -1,0 +1,14 @@
+##OpenGL GLIB
+
+Perspective 70
+LookAt 0 -1 2  0 0 0  0 1 0
+
+Texture2D 5 ocean2.bmp
+
+Vertex		final.vert
+Fragment	final.frag
+Program		final					\
+		        uP <-1. 0.1 1.0>				\
+                tP <30 50 100>                  \
+                uImageUnit  5
+QuadXY  -0.2  1.  200  200

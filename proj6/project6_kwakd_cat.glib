@@ -1,0 +1,38 @@
+##OpenGL GLIB
+Perspective 90
+LookAt -10 0 0  0 0 0  0 1 0
+
+Texture2D 6 example.bmp
+
+Vertex texture.vert
+Fragment texture.frag
+Program Texture  TexUnit 6
+
+Texture2D  6  wc.bmp
+QuadYZ 5. 5. 10 10
+
+//Texture2D  6  wc.bmp
+//QuadYZ -5. 5. 10 10
+
+Texture2D  6  wc.bmp
+QuadXZ 5. 5. 10 10
+
+Texture2D  6  wc.bmp
+QuadXZ -5. 5. 10 10
+
+Texture2D  6  wc.bmp
+QuadXY 5. 5. 10 10
+
+Texture2D  6  wc.bmp
+QuadXY -5. 5. 10 10
+
+CubeMap 6 wc.bmp wc.bmp  wc.bmp wc.bmp   wc.bmp wc.bmp
+CubeMap 7 wc.bmp wc.bmp  wc.bmp wc.bmp   wc.bmp wc.bmp
+
+Vertex   project6_kwakd_cat.vert
+Fragment project6_kwakd_cat.frag
+Program  Project6 Kwakd Cat
+
+
+Obj catL.obj 
+
